@@ -77,7 +77,7 @@ gh-tracker prs nodejs/node --json
 ```
 
 ---
-
+<!-- 
 ## 🪪 Authentication (Optional)
 
 You can use a GitHub Personal Access Token for increased API limits.
@@ -88,7 +88,7 @@ gh-tracker config set-token your_token_here
 
 The token will be stored locally and attached to future API requests.
 
----
+--- -->
 
 ## 🧰 CLI Options
 
