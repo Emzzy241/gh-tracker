@@ -2,6 +2,8 @@
 
 A GitHub Issues and Pull Request tracker CLI tool that helps developers quickly view, filter, and search issues or PRs from the terminal.
 
+Although, along the line later on in the future, this CLI tool will also be able to integrate into other collaboration tools like gitlab and bitbucket.
+
 ---
 
 ## 🚀 Purpose
