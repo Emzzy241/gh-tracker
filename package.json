@@ -1,18 +1,30 @@
 {
-  "name": "gh-tracker-app",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "gh-tracker",
+  "version": "0.1.0",
+  "description": "A GitHub issues and PR tracker for the terminal",
+  "main": "src/cli.js",
   "bin": {
     "gh-tracker": "./bin/gh-tracker.js"
   },
   "scripts": {
+    "start": "node ./bin/gh-tracker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "github",
+    "cli",
+    "issues",
+    "pull-requests",
+    "terminal"
+  ],
+  "author": "Mojiboye Emmanuel (Dynasty)",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^1.9.0",
-    "commander": "^13.1.0"
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.3",
+    "commander": "^11.0.0",
+    "conf": "^10.2.0",
+    "ora": "^5.4.1"
   }
 }
