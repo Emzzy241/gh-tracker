@@ -10,7 +10,7 @@ async function test() {
     console.log('--- Issues ---');
     console.log(issues);
 
-    const prs = await fetchPullRequests('rccghope', 'RccgHopeOfficial', {
+    const prs = await fetchPullRequests('Quill241', 'quil-busniess', {
       state: 'closed',
       limit: 3,
     });
@@ -18,7 +18,7 @@ async function test() {
     console.log(prs);
 
 
-    const contributors = await fetchContributors('rccghope', 'RccgHopeOfficial');
+    const contributors = await fetchContributors('Quill241', 'quil-busniess');
     console.log('--- Contributors ---');
     contributors.forEach(c => console.log(`${c.login} (${c.contributions} contributions)`));
 
