@@ -96,3 +96,6 @@ gh-tracker config --set-token YOUR_GITHUB_TOKEN
 ## License
 
 MIT
+
+## Tool Creator
+Mojiboye Emmanuel Oluwole (Dynasty)
